@@ -1,23 +1,27 @@
-
-title: Catbook #Your awesome title
-email: #youremail@domain.com
+title: 소영의 BLOG #Your awesome title
+email: thdudzi@naver.com
 description: > # this means to ignore newlines until "baseurl"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
 baseurl: ""
-url: http://127.0.0.1:4000
+url: "https://wlthdud.github.io/"
+
+github:
+  username: wlthdud
+
+lang: ko-KR
 
 permalink: /:year-:month/:title
-timezone:
+timezone: Asia/Seoul
 
 favicon: /assets/img/favicon.ico
 
 google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 cusdis:
-    app_id: #your cusdis app_id
+  app_id: #your cusdis app_id
 
 user:
   name: Catbook
@@ -37,13 +41,13 @@ defaults:
       type: posts
     values:
       layout: post
-      comment: true   
+      comment: true
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown 
+markdown: kramdown
 
 # Filtering Content
 show_drafts: null
 limit_posts: 0
-future:      false
+future: false
 unpublished: false
