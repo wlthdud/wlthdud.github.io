@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "Img2.jpeg"
 layout: page
 permalink: /posts/
 title: "Archive"
@@ -9,8 +9,8 @@ active: archive
 ---
 
 {% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
+{% assign t = tag | first %}
+{% assign posts = tag | last %}
 
   <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
 
