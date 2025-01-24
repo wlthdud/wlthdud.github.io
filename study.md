@@ -2,10 +2,10 @@
 bg: "Img2.jpeg"
 layout: page
 permalink: /posts/
-title: "Archive"
+title: "Study"
 crawlertitle: "All articles"
-summary: "Posts about jekyll"
-active: archive
+summary: "A daily log of lessons, mistakes, and improvements."
+active: study
 ---
 
 {% for tag in site.tags %}

@@ -40,9 +40,9 @@ active: about
 ---
 ```
 
-**Archive**
+**Study**
 
-Archive page is sorting posts by tags. No more than one tag in one post.
+Study page is sorting posts by tags. No more than one tag in one post.
 
 Good:
 
