@@ -22,3 +22,5 @@ You can find the source code for Jekyll at
 지소영 Ji So Young
 
 Computer Engineering
+
+Quality Assurance
