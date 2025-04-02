@@ -6,9 +6,25 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Mar 2025 17:47:21 +0900</pubDate>
-    <lastBuildDate>Mon, 03 Mar 2025 17:47:21 +0900</lastBuildDate>
+    <pubDate>Wed, 02 Apr 2025 21:38:10 +0900</pubDate>
+    <lastBuildDate>Wed, 02 Apr 2025 21:38:10 +0900</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>테스트입니다</title>
+        <description>&lt;p&gt;이건 테스트 포스트입니다.
+Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Apr 2025 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/test/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/test/</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>posts</category>
+        
+      </item>
     
       <item>
         <title>Markdown Syntax Guide</title>
