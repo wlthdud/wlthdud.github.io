@@ -8,6 +8,34 @@ a {
   &:active { text-decoration: none; }
 }
 
+.toc {
+  font-size: 0.9em;
+  color: #777;
+  margin: 1em 0;
+  padding: 0.8em 1em;
+  background: #f9f9f9;
+  border-left: 4px solid #eee;
+  border-radius: 8px;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc li {
+  margin: 0.3em 0;
+}
+
+.toc a {
+  text-decoration: none;
+  color: #777;
+}
+
+.toc a:hover {
+  color: #444;
+}
 
 
 /*
@@ -99,7 +127,7 @@ a {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   padding: 0 1rem;
   text-transform: uppercase;
   a {
@@ -242,7 +270,7 @@ article {
   color: #b9b9b9;
   font-size: 70%;
   font-weight: bold;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   a, a:hover, a:focus, a:visited {
     color: #333;
   }

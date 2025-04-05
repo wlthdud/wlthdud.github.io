@@ -6,9 +6,143 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Apr 2025 21:38:10 +0900</pubDate>
-    <lastBuildDate>Wed, 02 Apr 2025 21:38:10 +0900</lastBuildDate>
+    <pubDate>Sat, 05 Apr 2025 21:07:23 +0900</pubDate>
+    <lastBuildDate>Sat, 05 Apr 2025 21:07:23 +0900</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>0. Python이란?</title>
+        <description>&lt;h3 id=&quot;0-python이란&quot;&gt;0. Python이란?&lt;/h3&gt;
+
+&lt;div class=&quot;toc&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;🐍 &lt;a href=&quot;#파이썬-언어의-특징&quot;&gt;파이썬 언어의 특징&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;🥲 &lt;a href=&quot;#파이썬의-단점&quot;&gt;파이썬의 단점&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;🙆🏻‍♀️ &lt;a href=&quot;#파이썬으로-할-수-있는-일&quot;&gt;파이썬으로 할 수 있는 일&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;🙅🏻‍♀️ &lt;a href=&quot;#파이썬으로-할-수-없는-일&quot;&gt;파이썬으로 할 수 없는 일&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Python.jpeg&quot; alt=&quot;Python&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;파이썬-언어의-특징&quot;&gt;파이썬 언어의 특징&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 코드의 단순성과 표준성&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬의 다른 객체 지향 언어를 사용하는 코드의 구문보다 간결하고 간단하며 규칙적임&lt;/p&gt;
+
+&lt;p&gt;서술문들은 줄로 끝나고, 블록 구조는 들여쓰기 형태로 나타남&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 높은 이식성&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 플랫폼이 독립적이면서 모든 OS 환경에 연동됨&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 객체 지향 언어&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 클래스 추상화와 함수형 추상화를 제공하는 객체 지향 언어이자 함수형 프로그래밍 언어로 코루틴(Coroutine)을 지원하는 언어&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 확장 가능한 라이브러리&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 방대한 표준 라이브러리를 제공함&lt;/p&gt;
+
+&lt;p&gt;정규 표현식, 자동 문서 생성, 유닛 테스트, GUI 등 Python 패키지들을 지속적으로 업데이트하며 Python Package Index를 제공함&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;파이썬의-단점&quot;&gt;파이썬의 단점&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. GIL 문제&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;현재 cPython의 Interpreter에서 동시에 오직 하나의 스레드만 동작하도록 허용하면서 생기는 문제&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 다중 스레드(Multi-Thread)의 성능 저하&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;cPython에서는 다중 스레드보다 다중 프로세스의 사용을 권장함&lt;/p&gt;
+
+&lt;p&gt;다중 프로세싱 패키지를 제공해 스레드와 비슷하게 구현할 수 있도록 지원함&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 모바일 플랫폼 라이브러리가 없음&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;파이썬으로-할-수-있는-일&quot;&gt;파이썬으로 할 수 있는 일&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 시스템 유틸리티 제작&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 운영체제의 시스템 명령어들을 이용할 수 있는 각종 도구를 갖추고 있어서 여러 시스템 유틸리티를 만들기 좋음&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ GUI 프로그래밍&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;GUI(Graphic User Interface) 프로그래밍이란 화면을 보며 마우스나 키보드로 조작할 수 있는 프로그램을 만드는 것. 파이썬은 이 GUI 프로그래밍을 만드는 것이 쉬움&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 웹프로그래밍&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 데이터베이스 프로그래밍&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 Sybase, Infomix, Oracle, MySQL, PostgreSQL 등의 데이터베이스에 접근할 수 있게 해주는 도구들을 제공&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 데이터 분석&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;아직 데이터 분석은 R이라는 언어를 많이 사용하지만, 파이썬으로 만들어진 판다스라는 모듈을 사용하는 경우가 늘고 있음&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 사물 인터넷&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;라즈베리 파이(Raspberry Pi)는 리눅스 기반의 아주 작은 컴퓨터로 파이썬은 이를 제어하는 도구로 사용&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;파이썬으로-할-수-없는-일&quot;&gt;파이썬으로 할 수 없는 일&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 시스템과 밀접한 프로그래밍 언어&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬으로 도스나 리눅스 같은 운영체제, 엄청난 횟수의 반복과 연산을 필요로 하는 프로그램 또는 데이터 압축 알고리즘 개발 프로그램 등을 만드는 것은 어려움&lt;/p&gt;
+
+&lt;p&gt;대단히 빠른 속도를 요구하거나 하드웨어를 직접 건드려야 하는 프로그램에는 어울리지 않음&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◦ 모바일 프로그래밍&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 구글이 가장 애용하는 언어지만, 안드로이드/아이폰 앱을 개발하는 것은 아직 어려움&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Apr 2025 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/python/py1/</link>
+        <guid isPermaLink="true">http://localhost:4000/python/py1/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>python</category>
+        
+      </item>
     
       <item>
         <title>테스트입니다</title>
@@ -16,13 +150,13 @@
 Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Apr 2025 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/test/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/test/</guid>
+        <link>http://localhost:4000/test/test/</link>
+        <guid isPermaLink="true">http://localhost:4000/test/test/</guid>
         
-        <category>jekyll</category>
+        <category>test</category>
         
         
-        <category>posts</category>
+        <category>test</category>
         
       </item>
     
@@ -35,10 +169,15 @@ Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
 &lt;p&gt;The following HTML &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 
 &lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
+
 &lt;h2 id=&quot;h2&quot;&gt;H2&lt;/h2&gt;
+
 &lt;h3 id=&quot;h3&quot;&gt;H3&lt;/h3&gt;
+
 &lt;h4 id=&quot;h4&quot;&gt;H4&lt;/h4&gt;
+
 &lt;h5 id=&quot;h5&quot;&gt;H5&lt;/h5&gt;
+
 &lt;h6 id=&quot;h6&quot;&gt;H6&lt;/h6&gt;
 
 &lt;h2 id=&quot;paragraph&quot;&gt;Paragraph&lt;/h2&gt;
@@ -94,21 +233,22 @@ Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
 
 &lt;h2 id=&quot;code-block-with-backticks&quot;&gt;Code block with backticks&lt;/h2&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
 
 &lt;h4 id=&quot;ordered-list&quot;&gt;Ordered List&lt;/h4&gt;
+
 &lt;ol&gt;
   &lt;li&gt;First item&lt;/li&gt;
   &lt;li&gt;Second item&lt;/li&gt;
@@ -140,16 +280,15 @@ Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sun, 14 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/markdown/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/markdown/</guid>
+        <link>http://localhost:4000/test/markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/test/markdown/</guid>
         
-        <category>jekyll</category>
+        <category>test</category>
         
         
-        <category>posts</category>
+        <category>test</category>
         
       </item>
     
@@ -188,13 +327,13 @@ Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 29 Jun 2016 22:09:47 +0900</pubDate>
-        <link>http://localhost:4000/posts/es6/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/es6/</guid>
+        <link>http://localhost:4000/test/es6/</link>
+        <guid isPermaLink="true">http://localhost:4000/test/es6/</guid>
         
-        <category>front-end</category>
+        <category>test</category>
         
         
-        <category>posts</category>
+        <category>test</category>
         
       </item>
     
@@ -207,7 +346,7 @@ Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -216,13 +355,13 @@ Jekyll 블로그를 배우는 중이에요.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 29 Jun 2016 01:09:47 +0900</pubDate>
-        <link>http://localhost:4000/posts/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/test/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/test/welcome-to-jekyll/</guid>
         
-        <category>jekyll</category>
+        <category>test</category>
         
         
-        <category>posts</category>
+        <category>test</category>
         
       </item>
     

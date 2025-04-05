@@ -22,6 +22,8 @@ github_username: wlthdud
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+kramdown:
+  auto_ids: true
 
 # Posts settings
 future: true
