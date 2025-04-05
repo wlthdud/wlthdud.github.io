@@ -41,3 +41,6 @@ sass:
   style: compressed
 
 images: "/assets/images"
+
+plugins:
+  - jekyll-sitemap
