@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://wlthdud.github.io/sitemap.xml
